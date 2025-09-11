@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');@font-face{font-family:ITCAvantGardePro;src:url(../font/ITCAvantGardePro-Md.ttf)}
+@font-face{font-family:EthnocentricRg;src:url(../font/Ethnocentric\ Rg.otf)}
+@font-face{font-family:BebasNeue;src:url(../font/BebasNeue-Regular.ttf)}
+*{margin:0;padding:0;list-style-type:none;text-decoration:none;border:none;outline:none;background:none}
+body{font-size:16px;background:url(../images/body-back.jpg)}
+.wrapper{max-width:1200px;width:100%;height:auto;margin:auto}
+.row-1{width:100%;height:750px;background:url(../images/back.jpg) no-repeat;background-size:cover;display:inline-block}
+.nav-1{width:100%;margin-top:40px;text-align:center;position:relative;height:640px;display:flex;flex-direction:column;justify-content:space-between}
+.nav-1 ul{width:17%;position:absolute;left:0;top:0}
+.nav-1 ul li{font-size:3.1em;line-height:50px;color:#4a4f4a;list-style-type:disc}
+.nav-1 ul li a{font-family:Open Sans;font-size:0.5em;color:#8d908d;float:left}
+.nav-1 ul li:hover{color:#ed1c24}
+.nav-1 ul li:hover a{color:#ffffff;margin-left:-18px}
+.logo-1{display:inline-block}
+.nav-1 h2{font-family:ITCAvantGardePro;font-size:4em;color:#ffffff}
+.row-2,.row-4,.row-4-black,.row-6{width:100%;text-align:center}
+.row-2 span,.row-4 span,.row-6 span,.row-4-black span{font-size:1.1em;font-family:EthnocentricRg;color:#000000;line-height:225px;display:inline-block}
+.row-6 span{line-height:110px}
+.row-2 h2,.row-6 h2{font-size:4.1em;font-family:EthnocentricRg;color:#ed1c24;line-height:225px;display:inline-block}
+.row-6 h2{line-height:110px}
+.row-6 p{font-size:1.3em;font-family:ITCAvantGardePro;color:#939292;line-height:40px;padding-bottom:10px}
+.row-4 h2,.row-4-black h2{font-size:4.1em;font-family:EthnocentricRg;line-height:225px;display:inline-block;color:#27a9e1}
+.row-3,.row-7,.row-9{width:100%;background-color:#ed1c24}
+.row-9{text-align:center}
+.row-3-child,.row-7-child,.row-8-child{width:100%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.row-3-col-1{width:18%;text-align:center;margin-top:50px;margin-bottom:50px;height:450px}
+.img-1{width:41.2%;height:95px;background-color:#ffffff;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:auto}
+.row-3-col-1 h2{font-family:BebasNeue;font-size:1.8em;font-weight:normal;color:#ffffff;margin-top:20px;display:inline-block}
+.row-3-col-1 p{height:275px;line-height:22px;text-align:justify;font-family:ITCAvantGardePro;font-size:0.8em;color:#ffffff;margin-top:30px}
+.trangle-1,.trangle-2{width:0%;height:0;border-top:90px solid #ed1c24;border-left:65px solid transparent;border-right:65px solid transparent;margin:auto}
+.trangle-2{border-top:90px solid #27a9e1}
+.row-5,.row-8{width:100%;background-color:#27a9e1}
+.row-5-child{width:100%;text-align:center;padding-bottom:40px;padding-bottom:40px}
+.row-5-child h2{font-size:2.5em;font-family:BebasNeue;color:#ffffff;font-weight:normal;padding:10px 0 10px 0}
+.row-5-child p{font-size:1.15em;font-family:ITCAvantGardePro;color:#ffffff;padding:10px 0 10px 0}
+.row-7-col-1{width:289px;height:275px;background-color:#000000;clip-path:polygon(68% 2%,93% 50%,57% 100%,5% 64%,11% 13%)}
+.row-7-col-1 img{width:240px;margin-top:60px}
+.row-7-col{width:24%;text-align:center;height:470px;margin-top:70px}
+.row-7-col h2{font-size:2.5em;font-family:BebasNeue;color:#ffffff;font-weight:normal;margin-top:10px}
+.row-7-col p{font-size:1.25em;font-family:ITCAvantGardePro;color:#ffffff}
+.row-8-child{flex-wrap:wrap}
+.row-8-col{width:30.2%;background-color:#ffffff;margin-top:90px;text-align:center;height:230px}
+.row-8-col:nth-of-type(4),.row-8-col:nth-of-type(5),.row-8-col:nth-of-type(6){margin-bottom:90px}
+.row-8-col h2{font-family:BebasNeue;font-size:2.1em;color:#27a9e1;font-weight:normal;margin-top:20px}
+.row-8-col span{color:#000000}
+.row-8-col p{font-family:ITCAvantGardePro;font-size:0.7em;color:#46bdf1;line-height:21px;padding:0 3.7%;height:105px}
+.row-8-col:nth-of-type(5) p{height:56px}
+.anc-2,.anc-3{font-family:BebasNeue;font-size:1.0em;color:#ffffff;font-weight:normal;margin-top:25px;display:block;background-color:#1c98cd;padding:10px 0}
+.anc-3{margin-top:51px}
+.anc-1,.row-9-col-1 a{font-size:0.75em;font-family:ITCAvantGardePro;color:#000000;text-decoration:underline;display:inline-block;text-align:center}
+.row-9-col-1 h2{font-family:BebasNeue;font-size:2.5em;color:#ffffff;padding-top:30px;font-weight:normal}
+.row-9-col-1 p{font-family:ITCAvantGardePro;font-weight:normal;font-size:1.1em;color:#ffffff;padding-top:15px}
+.row-9-col-1 a{font-size:1.1em;font-weight:normal}
+.row-9-col-1{width:100%;text-align:center;height:741px}
+.row-9-col-1 p:nth-of-type(3),.row-9-col-1 p:nth-of-type(6),.row-9-col-1 p:nth-of-type(5),.row-9-col-1 p:nth-of-type(9),.row-9-col-1 p:nth-of-type(2),.row-9-col-1 p:nth-of-type(8),.row-9-col-1 p:nth-of-type(10){padding-top:0}
+.inputtype{width:100%;height:500px;text-align:center}
+.form-1{width:100%;padding-top:20px}
+.row-9-child{display:flex;justify-content:space-around}
+.row-9-col{width:41.6%}
+.row-9-col label,.label-1{padding-top:30px;font-size:1.8em;font-family:BebasNeue;color:#ffffff;float:left;padding-left:0}
+.label-1{padding-left:4.1%}
+.row-9-col input{width:95%;font-size:1.1em;font-family:ITCAvantGardePro;color:#ff5f65;border:2px solid #ffffff;border-radius:6px;padding:15px 0 15px 4%}
+.form-1 textarea{width:90%;height:130px;font-family:ITCAvantGardePro;font-size:1.1em;color:#ff5f65;border:2px solid #ffffff;border-radius:6px;padding:15px 0 0 15px}
+.input-1{font-size:1.8em;font-family:BebasNeue;font-weight:normal;background-color:#f3f3f3;border-bottom:8px solid #ba0103;float:left;color:#ed1c24;padding:5px 5.7%;border-radius:4px;margin:20px 0 0 50px}
+.row-10{width:100%;margin:100px 0 0 0;text-align:center;background-color:#3f3d3d}
+.logo-2{display:inline-block}
+.logo-2 img{padding:30px 0 15px 0}
+.row-10 ul li{display:inline-block}
+.row-10 ul li a{display:inline-block;padding:7px 8%;background-color:#202020;border-top-right-radius:6px;border-bottom-left-radius:6px;margin:0 25px}
+.row-10 ul li a i{font-size:1.25em;color:#ffffff}
+.row-10 ul li:hover a{background:#dfdfdf;color:#000000}
+.row-10 ul li:hover a i{color:#000000}
+.row-10 p{font-size:1.1em;font-family:OpenSans;color:#ffffff;padding:15px 0 65px 0}
